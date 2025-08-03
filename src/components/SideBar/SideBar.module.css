@@ -1,0 +1,56 @@
+.lateralBar {
+  background-color: #333;
+  width: fit-content;
+  border-radius: 3px;
+}
+
+.playerHead {
+  border-radius: 50%;
+}
+
+.user {
+  padding: 10px 0;
+}
+
+.nickname {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.discord iframe {
+  height: 500px;
+}
+
+.contact {
+  margin: 0 auto;
+  border-radius: 3px;
+  margin-top: 5px;
+  color: aliceblue;
+  background-color: #333;
+  font-size: 40px;
+  width: 300px;
+}
+
+.contact p {
+  font-size: 15px;
+}
+
+.contact i {
+  cursor: pointer;
+  width: fit-content;
+  margin: 10px;
+}
+
+@media screen and (max-width: 770px) {.playerHead {
+  border-radius: 50%;
+  width: 30%;
+}
+.lateralBar{
+  width: 100%;
+  margin-top: 5px;
+}
+.contact{
+  width: 100%;
+}
+    }
+    

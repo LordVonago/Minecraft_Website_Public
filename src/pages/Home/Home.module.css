@@ -1,0 +1,30 @@
+.maincontainer {
+  margin-right: 10px;
+  background-color: rgba(51, 51, 51, 0.8);
+  width: 100%;
+  max-width: 95%;
+  border-radius: 3px;
+}
+
+.text {
+  margin-top: 15px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.content {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 95%;
+}
+
+@media screen and (max-width: 770px) {
+    .content{
+        display: block;
+    }
+    .maincontainer{
+      max-width: 100%;
+    }
+    }
+    

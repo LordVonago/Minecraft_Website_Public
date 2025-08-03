@@ -1,0 +1,16 @@
+.footer {
+  text-decoration: none;
+  margin: 0 auto;
+  display: flex;
+  max-width: 95%;
+  color: aliceblue;
+}
+
+.footer a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.terms {
+  cursor: pointer;
+}

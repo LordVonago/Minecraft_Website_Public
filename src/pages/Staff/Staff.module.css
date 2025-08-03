@@ -1,0 +1,41 @@
+.container {
+  background-color: rgba(51, 51, 51, 0.8);
+  width: 100%;
+  margin-right: 10px;
+}
+
+.staff {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.nick {
+  color: rgb(20, 216, 69);
+  font-size: 20px;
+}
+
+.skin {
+  border: 1px solid #333;
+  margin: 5px;
+  border-radius: 2%;
+  background-color: #333;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+
+  max-width: 95%;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 770px) {
+  .content{
+    display: block;
+  }
+  .container ul{
+    display: block;
+  }
+}

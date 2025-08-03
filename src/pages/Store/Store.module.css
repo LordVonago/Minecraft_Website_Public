@@ -1,0 +1,142 @@
+.storeMainContainer {
+  margin: 0 auto;
+  margin-right: 10px;
+  background-color: rgba(51, 51, 51, 0.8);
+  max-width: 95%;
+  padding-bottom: 15px;
+}
+
+.discount {
+  background-color: #409644;
+  color: aliceblue;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.storeItems {
+  border: 1px solid #807a7a;
+  border-radius: 3px;
+  max-width: 95%;
+  width: 60%;
+  list-style: none;
+  transition: 0.2s ease-in-out;
+  margin: 10px;
+  /* padding-bottom: 10px; */
+}
+.storeItems:hover {
+  box-shadow: rgba(255, 255, 0, 0.7) 0 0 30px;
+  background-color: rgba(51, 51, 51, 1);
+  .buybtn {
+    background-color: #409644;
+  }
+  .cartadd {
+    background-color: #52be58;
+  }
+}
+
+.item {
+  width: 100%;
+}
+
+.name {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.cards {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardbuybtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartadd,
+.buybtn {
+  color: aliceblue;
+  background-color: rgb(64, 150, 68, 0.6);
+  font-size: 35px;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.cartadd {
+  flex: 2;
+}
+.buybtn {
+  flex: 7;
+}
+
+.buybtn:active,
+.cartadd:active {
+  font-size: 32px;
+}
+
+.cards ul {
+  display: flex;
+  width: 70%;
+}
+
+.duration {
+  color: aliceblue;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.durationSelect {
+  font-size: 18px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #535353;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.price {
+  color: aliceblue;
+  font-size: 25px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.content {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 95%;
+}
+.cart {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 770px) {
+  .content {
+    display: block;
+    max-width: 100%;
+  }
+  .cards ul {
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+  }
+  .storeItems {
+    width: 94%;
+  }
+}

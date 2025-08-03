@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  width: 100%;
+  max-width: 95%;
+  border-radius: 3px;
+  overflow: hidden;
+  max-height: 85px;
+}
+
+.destiny {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-color: aliceblue;
+  border-radius: 2px;
+  height: 85px;
+}
+
+.navbar .navbarbtn a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 5px;
+  cursor: pointer;
+  height: 85px;
+  width: 100px;
+}
+
+.navbar .navbarbtn a:hover {
+  background-color: #4b4b4b;
+  border-radius: 5px;
+}
+
+.userskinhead {
+  width: 200px;
+}
+
+.playerHead {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 80px;
+  cursor: pointer;
+  border: 1px solid aliceblue;
+}
+
+@media screen and (max-width: 770px) {
+    .userskinhead{
+      width: 25%;
+    }
+    .navbar .navbarbtn a {
+      height: 35px;
+    }
+    }
+    

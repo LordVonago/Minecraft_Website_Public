@@ -1,0 +1,14 @@
+.maincontainer {
+  text-align: center;
+}
+
+.footer {
+  display: inline;
+}
+
+html {
+  background-image: url(/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Helvetica;
+}
